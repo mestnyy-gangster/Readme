@@ -1,0 +1,16 @@
+Структура репозитория
+Readme/  # корневой каталог репозитория
+
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/example/expensecalculator/
+│   │           ├── model/         # сущности, например, Expense, Category
+│   │           ├── service/       # логика: сервис для работы с расходами
+│   │           └── Main.java      # точка входа приложения
+│   └── test/                       # unit-тесты (если есть)
+├── docs/
+│   └── screenshots/                # скриншоты, диаграммы (по желанию)
+├── pom.xml                         # файл конфигурации Maven
+├── README.md                       # этот файл
+└── .gitignore
